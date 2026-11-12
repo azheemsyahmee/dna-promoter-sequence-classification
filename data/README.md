@@ -32,3 +32,17 @@ In *Escherichia coli* (*E. coli*), promoter sequences are recognized by the $\si
 * **Tensor Dimensions:**
   - Feature matrix $X$: $(106, 57, 4)$
   - Target vector $y$: $(106,)$
+
+
+## 5. Licensing, Terms of Use & Upstream Download
+
+* **Redistribution & License Notice:** The dataset is hosted on the UCI Machine Learning Repository under the Creative Commons Attribution 4.0 International (CC BY 4.0) license (subject to donor attribution). As an early academic machine learning benchmark created in 1990, it is made available for academic, educational, and research use.
+* **Academic Citation:** When using this data, please cite the original donors:
+  > Towell, G. G., Shavlik, J. W., & Noordewier, M. O. (1990). *Refinement of Approximate Domain Theories by Knowledge-Based Neural Networks*. In Proceedings of the Eighth National Conference on Artificial Intelligence (AAAI-90), pp. 861-866.
+* **Upstream Download Instructions:**
+  If you prefer to download the raw dataset directly from the UCI ML Repository rather than using the bundled file:
+  1. Download the archive directly from the UCI archive portal:
+     ```bash
+     curl -L -o promoter_data.zip "https://archive.ics.uci.edu/static/public/67/molecular+biology+promoter+gene+sequences.zip"
+     ```
+  2. Extract `promoters.data` into the `data/` directory.
