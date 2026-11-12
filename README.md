@@ -19,7 +19,10 @@ Because biological sequence regulation involves both upstream and downstream nuc
 
 ## 2. Dataset Provenance & Preprocessing
 
-* **Dataset:** Molecular Biology (Promoter Gene Sequences), UCI Machine Learning Repository
+* **Dataset:** Molecular Biology (Promoter Gene Sequences), UCI Machine Learning Repository (ID: 67)
+* **Official Dataset Citation:** Harley, C. B., Reynolds, C. W., & Noordewier, M. O. (1987). *Analysis of E. coli promoter sequences*. Nucleic Acids Research, 15(5), 2343–2361.
+* **Related Research Reference:** Towell, G. G., Shavlik, J. W., & Noordewier, M. O. (1990). *Refinement of Approximate Domain Theories by Knowledge-Based Neural Networks*. In Proceedings of AAAI-90, pp. 861–866.
+* **Licensing:** Creative Commons Attribution 4.0 International (CC BY 4.0) via UCI ML Repository.
 * **Sample Count:** 106 instances (53 promoters `+`, 53 non-promoters `-`)
 * **Sequence Length:** 57 nucleotides per sequence (-50 to +7 relative to TSS)
 * **One-Hot Representation:** Orthogonal 4D vector encoding per base:
